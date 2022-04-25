@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+body {
+  background-position: center center;
+  background-size: cover;
+  font-family: 'roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+header {
+ background: purple;
+ width: 100%;
+}
+nav {
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+ 
+  
+}
+nav a:hover {
+  background: rgb(8,162,201);
+}
+nav button {
+height: min-content;
+width: min-content;
+padding: 6px;
+color: rgba(255, 255, 255, 0.9);
+ background: none;
+ border: none;
+ outline: none;
+}
+nav button:hover {
+  background: rgb(9,192,237);
+}
+.active {
+  background: rgb(9,192,237);
+}
+#profile {
+  line-height: 1.7;
+}
+.container {
+  background-size: contain;
+  height: 300px;
+ // margin: 1rem  0.5rem;
+}
+.banner  {
+  font-family: 'Roboto', sans-serif;
+  height: 200px;
+  background: url(https://i.imgur.com/aaFu9t7_d.webp?maxwidth=640&shape=thumb&fidelity=medium) no-repeat;
+  background-size: cover;
+  background-origin: border-box;
+  background-position: center;
+}
+
+h1 {
+  text-align: left;
+  margin: 1rem;
+  font-weight: 300;
+}
+ul {
+  list-style: none;
+  font-weight: 300;
+}
+p, li {
+  margin: 0.5rem auto auto;
+  text-indent: 1rem;
+}
+.titulo {
+  font-weight: 300;
+}
+section {
+  padding-bottom: 1rem;
+}
+hr {
+  margin: 2rem 0 0;
+  opacity: 0.5;
+}
+.banner h1:first-child {
+  letter-spacing: 0.1rem;
+  text-shadow: -1px 1px 1px #ffffff;
+}
+.crea {
+  padding: 1rem auto auto;
+  box-shadow: 1px 2px 8px -5px;
+  
+}
+.crea p{
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.crea button {
+  width: max-content;
+  font-size: 1rem;
+  margin: 1rem auto 1rem 35%;
+  border: none;
+  padding: 0.6rem;
+  background: purple;
+  color: #fff;
+}
+footer {
+  margin: 2rem auto auto;
+  padding: 300px auto;
+  background: rgba(57,39,0,0.745);
+  color: white;
+  
+}
+footer h6 {
+ margin: 0.5rem auto; 
+}
+footer h6, footer p, footer span {
+  text-align: center;
+  font-size: 0.8rem;
+}
+footer address {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem;
+  
+}
+footer a {
+  color: rgb(9,192,237);
+  text-decoration: none;
+}
+footer span {
+  display: block;
+}
