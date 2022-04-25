@@ -82,7 +82,8 @@ function getComponents() {
       '/education': educacion,
       '/exp': exp,
       '/idiomas': idiomas,
-      '/index': home 
+      '/index': home,
+      '/': home
     }
 }
 function renderComponent() {
